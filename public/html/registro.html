@@ -1,0 +1,120 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../css/styleRegistro.css">
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>CookingNOW </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  
+  <script src="../js/usuarioBusiness.js"></script>
+  <script src="../js/jquery-3.5.1.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="https://kit.fontawesome.com/cd33816f91.js" crossorigin="anonymous"></script>
+
+</head>
+
+<header>
+  <img class="logo" src="../img/CookingNOW.png" alt="">
+
+</header>
+
+<body>
+  <!-- .........................................................................................................................-->
+
+
+
+  <div class="inicio">
+
+    <div class="botonesinicio">
+      <img class="logo2" src="../img/logo.png" alt="">
+      <div class="botones">
+
+        <button class="InicioSe" id="buttonInicio" onclick="" type="button">Iniciar Sesión</button>
+        <button class="BotonRegistro" id="buttonRegistro" onclick="" type="button">Registrarse</button>
+      </div>
+
+
+      <div class="pop-up2">
+
+        <div class="pop-up-wrap2">
+
+          <form action ="/auth" method="POST" class="formLogin">
+
+
+            <h2> Inicio sesión </h2>
+
+            <i class="far fa-times-circle" id="close2"></i>
+
+            <p type="Correo:">
+              <input type="email" placeholder="Correo" id="registro" required></input>
+            </p>
+
+            <p type="Contrasena:">
+              <input type="password" placeholder="Contrasena" id="registro" required></input>
+            </p>
+
+            <button class="Inicio2" onclick= "location.href='Home.html'"> Iniciar sesión </button>
+
+
+          </form>
+
+
+        </div>
+      </div>
+
+
+      <div class="pop-up">
+        <div class="pop-up-wrap">
+
+          <form class="formRegistry">
+
+
+            <h2> Registro </h2>
+
+            <i class="far fa-times-circle" id="close"></i>
+
+            <p type="Nombres completos:">
+              <input type="text" id="nombreU" placeholder="Nombre" required></input>
+            </p>
+
+            <p type="Correo:">
+              <input type="email" placeholder="Correo" id="correo" required></input>
+            </p>
+
+            <p type="Contrasena:">
+              <input type="password" placeholder="Contrasena" id="contrasenna" required></input>
+            </p>
+
+            <p type="Verificar la contrasena:">
+              <input type="password" placeholder="Confirmar contrasena" id="Contrasenna_2" required></input>
+            </p>
+
+
+            <button type="submit" onclick="crearUsuario()" class="btnRegistry"> Registrarse </button>
+
+          </form>
+        </div>
+
+      </div>
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+  <footer id="footer">
+
+    <h1> @Cooking Now</h1>
+
+  </footer>
+
+</body>
+
+
+</html>

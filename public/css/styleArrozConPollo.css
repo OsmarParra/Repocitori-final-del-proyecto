@@ -1,0 +1,346 @@
+header {
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    background-color: #ff9f00;
+    height: 8%;
+
+}
+
+.logo {
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 15%;
+
+}
+
+
+
+.lupa {
+
+   
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: auto;
+
+}
+
+.lupa:hover {
+
+    opacity: 60%;
+
+
+}
+
+.usuario {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.usuario:hover {
+
+    opacity: 60%;
+
+
+}
+
+body {
+
+    width: 100%;
+
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.facebook{
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.facebook:hover{
+
+    opacity: 60%;
+}
+.instagram{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.instagram:hover{
+
+    opacity: 60%;
+
+}
+
+.github{
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+
+
+}
+
+.github:hover{
+
+    opacity: 60%;
+
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+
+  
+    .logo {
+
+
+        width: 35%;
+
+    }
+
+
+
+    .logos {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 50%;
+    
+        background-color: transparent;
+        border: none;
+
+    }
+
+  
+
+
+    footer {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        background-color: #ff9f00;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+    h3{
+
+   
+        font-size: 120%;
+    
+    
+    
+    }
+
+
+    .receta1{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+       }
+    
+       .categorias{
+    
+    width: 80%;
+    
+    
+       }
+    
+       .receta2{
+    
+        display: flex;
+        justify-content: center;
+       
+        padding-left: 15%;
+        padding-right: 15%;
+    
+       }
+    
+    h3{
+    
+       
+        font-size: 120%;
+    
+    
+    
+    }
+    h4{
+        display: flex;
+        justify-content: center;
+        font-size: 140%;
+        color: #ff9f00;
+    }
+    
+    .ingredientes{
+        width: 49%;
+    }
+    
+    .pasos{
+    
+        width: 49%;
+    
+    }
+
+
+    .logos {
+        display: flex;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: end;
+        width: 100%;
+        height: auto;
+        padding-right: 5%;
+       
+        
+    
+    }
+
+    h2{
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    h1{
+
+
+        font-size: 120%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 450px) {
+
+
+
+
+
+    .logo {
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 15%;
+
+    }
+
+    .logos {
+        display: flex;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: end;
+        width: 100%;
+        height: 100%;
+       
+        
+    
+    }
+
+   .receta1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .categorias{
+
+width: 50%;
+
+
+   }
+
+   .receta2{
+
+    display: flex;
+    justify-content: center;
+   
+    padding-left: 15%;
+    padding-right: 15%;
+
+   }
+
+h3{
+
+   
+    font-size: 120%;
+
+
+
+}
+h4{
+    display: flex;
+    justify-content: center;
+    font-size: 140%;
+    color: #ff9f00;
+}
+
+.ingredientes{
+    width: 49%;
+}
+
+.pasos{
+
+    width: 49%;
+
+}
+    footer {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        background-color: #ff9f00;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    h1{
+
+
+        font-size: 120%;
+    }
+    
+
+    h2{
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+  
+
+}
